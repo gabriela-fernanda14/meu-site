@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(22, 133, 12);
+    color: rgb(255, 255, 255);
+}
+
+* {
+    font-family: serif;
+}
+
+.menu-horizontal {
+    text-align: center;
+    background-color: rgb(0, 104, 0);
+    padding: 20px;
+
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 70px;
+    margin: 10px;
+}
+
+.padrao {
+    text-align: center;
+    align-items: center;
+}
+
+.escudo {
+    width: 200px;
+    height: auto;
+}
+
+
+.titulo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+    padding: 30px;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev {
+    width: 170px;
+    height: auto;
+    margin: 0 10px;
+    display: block;
+}
+
+.github {
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+}
+
+form textarea {
+    width: calc(100% - 20px);
+
+}
+
+form button {
+    background-color: rgb(227, 227, 227);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+form button:hover {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Fernanda</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="menu-horizontal">
+
+
+        <a href="index.html">Início</a>
+
+        <a href="sobre.html">Sobre</a>
+
+        <a href="contato.html">Contato</a>
+
+
+    </div>
+    <h1 class="indice">Contato</h1>
+
+    <div class="padrao">
+
+        <h1>Guarani Futebol Clube</h1> <img src="img/simbolo2.jpg" alt="simbolo2" class="escudo">
+
+    </div>
+
+    <div class="redes">
+
+        <h1 class="titulo"> Desenvolvedor do site:</h1>
+
+        <a href="https://www.instagram.com/gabii.ffernanda/"><img src="img/dev.jpg" alt="insta" class="dev"></a>
+
+        <p>Me chamo Gabriela Fernanda Barbosa e sou estudante do SENAI Valinhos, no curso Desenvolvimento de Sistemas.
+            Estou no meu segundo semestre aprendendo sobre HTML e CSS, e como meio de aprofundar meu conhecimento decidi
+            desenvolver um site do time que torço (sim, sou bugrina!). Caso queira saber mais sobre mim, aqui do lado
+            direito está meu github, basta só clicar no icone que você será direcionado diretamente para lá. E caso
+            queira acessar meu instagram, é só clicar na minha foto na esquerda. Muito obrigado por chegar até aqui, se
+            puder, deixe um feedback aqui embaixo. 👇💚 </p>
+
+        <a href="https://github.com/gabriela-fernanda14">
+            <img alt="github" src="img/github.png" class="github"></a>
+
+    </div>
+
+    <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate
+        accept-charset="UTF-8" target="_blank">
+
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" required maxlength="100">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@xmail.com" required>
+
+            <label for="mensagem">Deixe um feedbak!</label>
+            <textarea name="mensagem" id="mensagem" rows="S" placeholder="Deixe aqui seu feedback..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
